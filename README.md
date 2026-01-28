@@ -15,6 +15,7 @@ Putting aside everything to do with a server aside for now which includes authen
 2. Reminder system
   - a set interval loop to check if current system time matches inputted time
   - using built in alert() in JavaScript as a placeholder function for SMS/email implementations later on
+
 And this concludes the idea and framework of how `app.js` works
 
 Above is pretty much all  the planning needed, moving onto the actual creation of the website. Site is first handrafted in raw HTML to lay out the textboxes, I left a snapshot of the code in a separate file, refer to `raw.html` 
