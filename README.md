@@ -16,5 +16,7 @@ Putting aside everything to do with a server aside for now which includes authen
   - a set interval loop to check if current system time matches inputted time
   - using built in alert() in JavaScript as a placeholder function for SMS/email implementations later on
 
-Above is pretty much all  the planning needed, moving onto the actual creation of the website. Site is first handrafted in raw HTML to lay out the textboxes, I left a snapshot of the code in a separate file, refer to `raw.html` <img width="420" height="555" alt="Screenshot 2026-01-28 at 10 55 38 PM" src="https://github.com/user-attachments/assets/3fefe797-54a0-4dc2-b08e-2dc89fda54da" />
+Above is pretty much all  the planning needed, moving onto the actual creation of the website. Site is first handrafted in raw HTML to lay out the textboxes, I left a snapshot of the code in a separate file, refer to `raw.html` 
+<img width="420" height="555" alt="Screenshot 2026-01-28 at 10 55 38 PM" src="https://github.com/user-attachments/assets/3fefe797-54a0-4dc2-b08e-2dc89fda54da" />
+
 Above screenshot shows the raw ugly html unstyled version of how it looks, recommended to lay out the bare bones of the site using HTML before any form of styling. Then here's the version with CSS <img width="1048" height="563" alt="Screenshot 2026-01-28 at 10 43 42 PM" src="https://github.com/user-attachments/assets/0687039e-c141-4550-9b63-66bdc08cb721" />
