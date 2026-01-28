@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pillpal</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <header>
+          <h1>Pillpal</h1>
+        </header>
+
+        <div>
+          <section>
+            <h2>Add a pill</h2>
+
+            <form id="pill-form">
+              <div>
+                <label for="pill-name">Name</label>
+                <input
+                  id="pill-name"
+                  name="pill-name"
+                  type="text"
+                  required
+                  placeholder="Name of the pill"
+                />
+              </div>
+
+              <div>
+                <label for="pill-dosage">Dosage</label>
+                <input
+                  id="pill-dosage"
+                  name="pill-dosage"
+                  type="text"
+                  placeholder="Dosage/Amount"
+                />
+              </div>
+
+              <div>
+                <label for="pill-notes">Notes</label>
+                <textarea
+                  id="pill-notes"
+                  name="pill-notes"
+                  rows="7"
+                  placeholder="Random info about the pill goes here"
+                ></textarea>
+              </div>
+
+              <div>
+                <div>
+                  <label>Times per day</label>
+                  <button type="button" id="add-time-btn">
+                    Add time
+                  </button>
+                </div>
+                <div id="time-inputs">
+                </div>
+              </div>
+
+              <div>
+                <label>
+                  <input
+                    id="pill-enabled"
+                    name="pill-enabled"
+                    type="checkbox"
+                    checked
+                  />
+                  <span>Enable reminders</span>
+                </label>
+
+                <button type="submit">Save pill</button>
+              </div>
+
+              <p id="form-error" aria-live="polite"></p>
+              <p id="form-success" aria-live="polite"></p>
+            </form>
+          </section>
+
+          <section>
+            <div>
+              <div>
+                <h2>Your pills</h2>
+              </div>
+            </div>
+
+            <div id="empty-state">
+              <p>No pills added yet</p>
+              <p>Added pills will appear below</p>
+              <button type="button" id="scroll-to-form-btn">
+                Go to add pill form on the left to add pills
+              </button>
+            </div>
+
+            <div id="pill-list"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
